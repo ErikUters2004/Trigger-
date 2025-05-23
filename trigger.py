@@ -1,6 +1,6 @@
 import mysql.connector
 import tkinter as tk
-from tkinter import ttk, messagebox
+from tkinter import ttk, messageboxsadfadsfsdfsdfdsfdsfdsfds
 from tkinter import PhotoImage
 
 # === Databaseverbinding ===
