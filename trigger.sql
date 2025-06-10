@@ -1,24 +1,3 @@
--- DATABASE SELECTIE (of maak deze aan in je eigen omgeving)
-CREATE DATABASE IF NOT EXISTS dbs;
-USE dbs;
-
--- Tabel 1: klanten
-CREATE TABLE IF NOT EXISTS klanten (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    naam VARCHAR(100),
-    email VARCHAR(100)
-);
-
--- Tabel 2: bestellingen
-CREATE TABLE IF NOT EXISTS bestellingen (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    klant_id INT,
-    product VARCHAR(100),
-    bedrag DECIMAL(10,2),
-    FOREIGN KEY (klant_id) REFERENCES klanten(id)
-);
-
--- Tabel 3: logboek
 CREATE TABLE IF NOT EXISTS logboek (
     id INT AUTO_INCREMENT PRIMARY KEY,
     tabelnaam VARCHAR(50),
