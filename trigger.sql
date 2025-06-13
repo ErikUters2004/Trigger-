@@ -41,7 +41,7 @@ CREATE TABLE `bestellingen` (
 
 LOCK TABLES `bestellingen` WRITE;
 /*!40000 ALTER TABLE `bestellingen` DISABLE KEYS */;
-INSERT INTO `bestellingen` VALUES (1,1,'Laptop',999.99),(2,1,'Monitor',199.99),(24,1,'Playstation 5',599.99),(26,40,'Gaming Stoel',149.99);
+INSERT INTO `bestellingen` VALUES (1,1,'Laptop',998.99),(2,1,'Monitor',199.99),(24,1,'Playstation 5',599.99),(26,40,'Gaming Stoel',149.99);
 /*!40000 ALTER TABLE `bestellingen` ENABLE KEYS */;
 UNLOCK TABLES;
 
